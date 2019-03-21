@@ -1,0 +1,38 @@
+{
+  "Log": {
+    "scope": "javascript,typescript",
+    "prefix": "log",
+    "body": [
+      "console.log($1)",
+    ],
+    "description": "Log output to console"
+  },
+  "Method": {
+    "scope": "javascript,typescript",
+    "prefix": "func",
+    "body": [
+      "$1: function ($2) {",
+      "  $3",
+      "}"
+    ],
+    "description": "Shorthand for method"
+  },
+  "Block": {
+    "scope": "css,scss,sass",
+    "prefix": "block",
+    "body": [
+      "$$block: &;"
+    ],
+    "description": "Define block for BEM parent definition"
+  },
+  "BlockMod": {
+    "scope": "css,scss,sass",
+    "prefix": "blockmod",
+    "body": [
+      "#{$$block}--$1 & {",
+      "  $2",
+      "}"
+    ],
+    "description": "Block class mod for BEM nested definition"
+  }
+}

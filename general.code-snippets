@@ -17,6 +17,14 @@
     ],
     "description": "Shorthand for method"
   },
+  "Text": {
+    "scope": "javascript,typescript,html",
+    "prefix": "text",
+    "body": [
+      "$$t('$1')"
+    ],
+    "description": "Copy parsing from Google spread sheet"
+  },
   "Block": {
     "scope": "css,scss,sass",
     "prefix": "block",

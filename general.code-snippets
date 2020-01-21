@@ -17,7 +17,7 @@
     ],
     "description": "Shorthand for method"
   },
-  "Text": {
+  "CopyDoc Text": {
     "scope": "javascript,typescript,html",
     "prefix": "text",
     "body": [
@@ -42,5 +42,13 @@
       "}"
     ],
     "description": "Block class mod for BEM nested definition"
+  },
+  "ClassMod": {
+    "scope": "html,js,vue",
+    "prefix": "classmod",
+    "body": [
+      "v-class-mods=\"{$1}\""
+    ],
+    "description": "Class mod statement for HTML tags"
   }
 }

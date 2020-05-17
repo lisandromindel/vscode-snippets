@@ -50,5 +50,32 @@
       "v-class-mods=\"{$1}\""
     ],
     "description": "Class mod statement for HTML tags"
+  },
+  "VueNewFile": {
+    "scope": "vue",
+    "prefix": "newfile",
+    "body": [
+      "<template>",
+      "  <div class=\"$1\"></div>",
+      "</template>",
+      "",
+      "<script>",
+      "export default {",
+      "  props: {},",
+      "  data() {",
+      "    return {}",
+      "  },",
+      "  computed: {},",
+      "  methods: {}",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      ".$1 {",
+      "}",
+      "</style>",
+      ""
+    ],
+    "description": "Create a new vue file template"
   }
 }
